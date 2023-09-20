@@ -1,0 +1,73 @@
+.notecard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .note-card {
+    width: 300px;
+    height: 320px;
+    padding: 10px;
+    color:white;
+    background-color:#34495e;
+    border-radius: 8px;
+    box-shadow: 0 2px 41px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .fixed-image {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .fixed-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  /* button bounce code */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .bouncing {
+    animation: bounce 0.5s;
+  }
+  /* button code */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .btn-bounce {
+    animation: bounce 2s infinite;
+    margin-right: 200px;
+    
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+.btn{
+  width:150px;
+  height: 40px;
+}
+  /* wish list */
+  

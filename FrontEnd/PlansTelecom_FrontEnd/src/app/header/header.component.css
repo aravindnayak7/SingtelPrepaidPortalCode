@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+#newfont{
+    font-family: 'Belanosima', sans-serif;
+    font-size:19px;
+}
+
+
+.btn{
+    width: 60px;
+    height: 60px;
+    background:rgb(19, 18, 18);
+    border: 1px solid #ffffff;
+    font-size: 24px;
+    position: relative;
+    font-weight: 400;
+    border-radius:50px;
+    color: #FFFFFF;
+    transition: all 0.4s ease-in-out;
+  }
+  .btn .greet {
+    display: block;
+    font-size: 0;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    word-spacing:2px;
+  }
+  .btn i {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn:hover {
+    font-size: 38px;
+    background: #e91010;
+    width: 150px;
+    height: 50px;
+    line-height: 1px;
+  }
+  .btn:hover .greet {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 0px;
+  }
+  .btn:hover i{
+    font-size: 0;
+  }

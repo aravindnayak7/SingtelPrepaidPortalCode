@@ -1,0 +1,102 @@
+<app-header></app-header>
+<!-- <div class="category-list">
+  <ul>
+    <li *ngFor="let category of cList" (click)="selectCategory(category)">
+      {{ category.productname }}
+    </li>
+  </ul>
+</div>
+
+<div class="content">
+  <h2 *ngIf="selectedCategory">Selected Category: {{ selectedCategory.productname }}</h2>
+  <p *ngIf="selectedCategory">{{ selectedCategory.price }}</p>
+</div> -->
+<!-- 
+<button (click)="getCategories()">Fruits</button>
+<button (click)="getCategories1()">Rice</button>
+<button (click)="getCategories2()">Vegitables</button>
+<br/>
+<br/> -->
+<!-- <div>
+  <li *ngFor="let category of cList">
+    {{ category.productname }}<br/>
+    {{category.category}}<br/>
+    {{category.price}}<br/>
+    {{category.price}}<br/>
+    {{category.productId}}<br/>
+    <button (click)="viewProduct(category.productId)">click here</button>
+    <br/>
+  </li>
+  
+</div> -->
+<!-- <app-header></app-header> -->
+<br/>
+<br/>
+<div class="button-container">
+<button class="btn btn-primary btn-bounce" (click)="getCategories()">Singtel_Basic</button>
+<button class="btn btn-primary btn-bounce" (click)="getCategories1()">Singtel_Medium</button>
+<button class="btn btn-primary btn-bounce" (click)="getCategories2()">Singtel_High</button>
+</div>
+<br/>
+<br/>
+<br/>
+<div>
+<div class="notecard-container">
+  <div class="note-card " *ngFor="let simplans of cList">
+    <div>
+      <div class="fixed-image">
+        <img width="200px" src="../../assets/Singtel_Logo_New.png" />
+      </div>
+    </div>
+    <div align="center">
+      {{ simplans.planName }}<br/>
+    {{simplans.planCost}}<br/>
+    {{simplans.planDetails}}<br/>
+    {{simplans.planDescription}}<br/>
+    </div>
+    <!-- <div>
+      <button class="btn btn-primary" (click)="viewProduct(category.productId)" (click)="startBounceAnimation()">Buy Now</button>
+    </div> -->
+    <br/>
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-start">
+          <button class="btn btn-primary" (click)="viewProduct(simplans.planId)" (click)="startBounceAnimation()">Purchase Plan</button>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <!-- <app-wishlist></app-wishlist> -->
+          <!-- <button (click)="addTOCart(pro.productId)">Add to cart</button> -->
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- <div class="notecard-container">
+<div class="note-card " class="card" *ngFor="let category of cList">
+  <div class="fixed-image">
+    <img width="300px" src="{{category.imageurl}}" />
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Card Title</h5>
+    <p class="card-text">Card content goes here.</p>
+  </div>
+  <button class="btn btn-primary btn-bounce">Buy Product</button>
+</div>
+</div> -->
+
+
+<!-- <div class="notecard-container">
+    <mat-card class="note-card " *ngFor="let category of cList" >
+        
+        <mat-card-content>Category:{{category.productname}}</mat-card-content><br/>
+        <mat-card-content>Product Name:{{category.category}}</mat-card-content><br/>
+        <mat-card-content>Price:{{category.price}}:Rs</mat-card-content><br/>
+        <mat-card-content>Uploaded image:<img width="100" src={{category.imageurl}}/></mat-card-content><br/>        
+    </mat-card><br/><br/>
+    </div> -->
+    
+
+    
+

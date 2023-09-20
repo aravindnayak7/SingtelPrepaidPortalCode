@@ -1,0 +1,83 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>HubSpot</title>
+  </head>
+  
+  <!-- <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <img width="100px" src="../../assets/MicrosoftTeams-image (2).png" />
+          <span class="ml-3 text-xl">Meeting Room Booking</span>
+        </a>
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400    flex flex-wrap items-center text-base justify-center">
+          <a href="/"class="mr-5 hover:text-gray-900">Home</a>
+          <a href="/"class="mr-5 hover:text-gray-900">Location</a>
+          <a href="/"class="mr-5 hover:text-gray-900">Workplace</a>
+          <a href="/"class="mr-5 hover:text-gray-900">Roomtour</a>
+          <a href="/"class="mr-5 hover:text-gray-900">Resources</a>
+          <a href="/"class="mr-5 hover:text-gray-900">Partners</a>
+        </nav>
+        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Buy Now
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img width="80px" src="../../assets/phone.png"  /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="newfont">
+            <button class="btn"><span class="greet">
+              <li class="nav-item">
+                <!-- without login --> 
+                 <a class="nav-link active"  routerLink="/home">Home</a>
+               </li>
+            </span><i class=" fa fa-home"></i></button>
+            <button class="btn"><span class="greet">
+            <li class="nav-item">
+              <a class="nav-link active" routerLink="/location">Location</a>
+            </li>
+          </span><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+            <!-- <li class="nav-item">
+              <a class="nav-link active" routerLink="/career">Workplace</a>
+            </li> -->
+            <button class="btn"><span class="greet">
+            <li class="nav-item">
+              <a class="nav-link active" routerLink="/category">Recharge</a>
+            </li>
+          </span><i class="fas fa-shopping-basket"></i> </button>
+          <button class="btn"><span class="greet">
+            <li class="nav-item">
+              <a class="nav-link active" routerLink="/resource">Take A Tour</a>
+            </li>
+          </span><i class="fa fa-cubes" aria-hidden="true"></i></button>
+          <button class="btn"><span class="greet">
+            <li class="nav-item">
+              <a class="nav-link active" routerLink="/partner">Partners</a>
+            </li>
+          </span><i class="fa fa-handshake-o" aria-hidden="true"></i></button>
+          <button class="btn"><span class="greet">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"  routerLink="/faq">FAQ's</a>
+            </li>
+          </span><i class="fa fa-question-circle" aria-hidden="true"></i></button>
+          </ul>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" routerLink="/adminadd">User Dashboard</button> 
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" routerLink="/cart">Go To Cart</button> 
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" routerLink="/cart">UserProfile
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    
